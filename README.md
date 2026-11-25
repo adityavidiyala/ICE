@@ -1,10 +1,10 @@
-# ICE
+# ICE (Integrated Terminal Coding Agent)
 
 **Interactive Coding Environment** — a Gemini-powered terminal coding agent with a Docker sandbox.
 
 Describe a coding task in plain language. ICE can inspect a project, create and edit files, run checks, and show the resulting diffs. Work happens in an isolated copy of your project; you decide when to apply changes to your computer.
 
-![ICE terminal demo](results\Screenshot 2026-11-25 171402.png)
+![ICE terminal demo](results/home_screen.png)
 
 *Example transcript rendered with demo data.*
 
