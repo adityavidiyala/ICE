@@ -1,0 +1,8 @@
+.env
+.env.*
+.ice-sandbox/
+__pycache__/
+*.pyc
+postalnewdemo.mp4
+POSTAL_ARCHITECTURE_ANALYSIS.md
+PROJECT_REVIEW_GUIDE.txt

@@ -1,0 +1,26 @@
+# postal configuration
+# System-level defaults. A project-level .postal/config.toml (in your cwd)
+# is merged on top of this and takes precedence.
+#
+# Note: api_key and base_url are NOT set here, they come from the
+# API_KEY and BASE_URL environment variables.
+
+max_turns = 100
+max_tool_output_tokens = 50000
+debug = false
+
+# hooks_enabled=true
+
+# [[hooks]]
+# name='test_before_tool'
+# trigger='before_tool'
+# command='python3 ./scripts/test_tool.py'
+
+[model]
+name = "apodex/apodex-1.1-mini:free"
+temperature = 1.0
+context_window = 256000
+
+# [mcp_servers.filesystem]
+# command = "npx"
+# args = ["-y", "@modelcontextprotocol/server-filesystem", "", "/tmp"]
