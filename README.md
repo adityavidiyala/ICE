@@ -6,7 +6,6 @@ Describe a coding task in plain language. ICE can inspect a project, create and 
 
 ![ICE terminal demo](results/home_screen.png)
 
-*Example transcript rendered with demo data.*
 
 ## Features
 
